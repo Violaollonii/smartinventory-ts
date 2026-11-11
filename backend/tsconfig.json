@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2023",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "incremental": true,
+    "removeComments": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolvePackageJsonExports": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
